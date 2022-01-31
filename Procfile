@@ -1,1 +1,1 @@
-web: gunicorn disasterrespapp:app
+web: gunicorn disasterrespapp:app --preload -b 0.0.0.0:5000
