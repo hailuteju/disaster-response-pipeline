@@ -1,0 +1,5 @@
+[core]
+    autostage = true
+    remote = mys3storage
+['remote "mys3storage"']
+    url = s3://disaster-response-webapp
